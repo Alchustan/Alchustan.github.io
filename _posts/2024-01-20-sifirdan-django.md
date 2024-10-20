@@ -1,8 +1,8 @@
 ---
 title: Sıfırdan Bir Django Uygulaması Geliştirme
-categories: [Development, Django]
+categories: [Web Development, Django]
 image:
-  path: https://static.djangoproject.com/img/logos/django-logo-negative.png
+  path: /assets/img/sifirdan-django/django-logo-negative.png
 ---
 
 Bu dökümanı hazırlamamın amacı, başta kendim olmak üzere Django framework'üne aşina olan ancak zamanla kullanımını ve temel fonksiyonlarını unutan kişilere yardımcı olmaktır. Bu nedenle döküman boyunca konuların detaylarına girmeyecek ve daha ziyade püf noktalara değineceğim, zira Django yeni olanlar için internette birçok çeşitli kaynak mevcut bulunmaktadır.
@@ -178,10 +178,10 @@ Bu adımları uyguladığınızda güncel Django dizin yapınız aşağıdakine 
 
 Pekala, şimdi Django uygulamamız sorunsuz bir şekilde çalışıyormu teyit edelim.
 
-![Home](/Alchustan/Alchustan.github.io/main/assets/img/post1/image%20(1).png)
+![Home](/assets/img/sifirdan-django/home-page.png)
 _home.html_
 
-![About](/Alchustan/Alchustan.github.io/main/assets/img/post1/about1.png)
+![About](/assets/img/sifirdan-django/about1.png)
 _about.html_
 
 ve görüldüğü üzere Django, sayfaları başarıyla önümüze getiriyor.
@@ -197,7 +197,7 @@ Aşağıda yer alan görselde, yapacağımız sitenin bir görünümü yer almak
 - Mavi renkli kısım: Sitenin ana içeriği burada yer alacak ve bu kısım **dinamik**, yani sayfanın içeriğine göre değişken olacak.
 - Sarı renkli kısım: Sitenin footer adını verdiğimiz bölüm ve bu kısım **statik**, yani sitenin tüm sayfalarında aynı kalacak.
 
-![Site Görünümü](/Alchustan/Alchustan.github.io/main/assets/img/post1/web-preview.jpeg){: width="600" height="600" .w-65 .center}
+![Site Görünümü](/assets/img/sifirdan-django/web-preview.jpeg){: width="600" height="600" .w-65 .center}
 _Bu şablon açık kaynak kodlu ve kullanımı ücretsizdir, [buradan](https://startbootstrap.com/theme/clean-blog) ulaşabilirsiniz._
 
 Burada ilk iş olarak <u>statik html</u> kodlarımın duracağı `templates` klasörü içerisinde `components` adında bir klasör daha oluşturuyorum. Ardından bu klasör içerisinde sırasıyla ilgili dosyaları oluşturuyorum:
@@ -478,11 +478,11 @@ http://127.0.0.1:8000/admin/ Adresine gidersek, bizi bir giriş ekranı karşıl
 
 Giriş yaptığımız taktirde bizi karşılayacak olan arayüz aşağıda yer alan görseldeki gibi olacaktır.
 
-![Admin Panel](/Alchustan/Alchustan.github.io/main/assets/img/post1/Ekran_goruntusu_2024-01-19_171555.png)
+![Admin Panel](/assets/img/sifirdan-django/panel1.png)
 
 Eğer Post kısmına bakacak olursak, mevcut postlarımızı görüntüleyebiliyoruz. Ayrıca sağ üst kısımda yer alan **Add Post** seçeneği ile yeni bir post ekleyebildiğimizi görüyoruz.
 
-![Posts](/Alchustan/Alchustan.github.io/main/assets/img/post1/image.png)
+![Posts](/assets/img/sifirdan-django/image.png)
 
 Ancak burada mevcut Postlarımıza baktığımızda, isimleri bizim için yeterince anlaşılır değiller. Bunları kendi Post başlıklarımız ile değiştirirsek, bizim için çok daha anlaşılır olacaklardır.
 
@@ -506,7 +506,7 @@ class Post(models.Model):
 
 Tekrar aynı arayüze dönecek olursak, artık her bir Post'u, bizim isimlendirdiğimiz başlık ile görebiliriz.
 
-![Updated Posts](/Alchustan/Alchustan.github.io/main/assets/img/post1/image%20(2).png)
+![Updated Posts](/assets/img/sifirdan-django/panel.png)
 
 
 ## Sonuç

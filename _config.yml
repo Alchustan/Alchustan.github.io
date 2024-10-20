@@ -16,10 +16,10 @@ timezone:
 
 title: Alchustan # the main title
 
-tagline: Cybersecurity Researcher # it will display as the sub-title
+tagline: Software Developer & Application Security Enthusiast # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-   A cybersecurity-oriented blog with software and technical contents.
+   Software development and cybersecurity-oriented blog with technical contents.
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
@@ -70,10 +70,10 @@ theme_mode: # [light|dark]
 # will be added to all image (site avatar & posts' images) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-img_cdn: "https://raw.githubusercontent.com"
+img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: "/Alchustan/Alchustan.github.io/main/assets/img/favicons/android-chrome-512x512.png"
+avatar: "assets/img/favicons/android-chrome-384x384.png"
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.

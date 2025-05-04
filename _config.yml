@@ -16,10 +16,10 @@ timezone: Europe/Istanbul
 
 title: Alchustan # the main title
 
-tagline: Software Developer & Application Security Enthusiast # it will display as the subtitle
+tagline: Software Developer & Offensive Security Enthusiast # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  Software development and cybersecurity-oriented blog with technical contents.
+  A tech blog focused on software development and offensive security.
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
@@ -34,7 +34,7 @@ twitter:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: Alchustan
+  name: Barış Yıldızoğlu
   email: # change to your email address
   links:
     # The first element serves as the copyright owner's link
@@ -59,7 +59,7 @@ webmaster_verifications:
 # Web Analytics Settings
 analytics:
   google:
-    id: "G-T0CT02TL75" # fill in your Google Analytics ID
+    id: # fill in your Google Analytics ID
   goatcounter:
     id: # fill in your GoatCounter ID
   umami:
@@ -98,7 +98,7 @@ theme_mode: # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: "assets/img/favicons/web-app-manifest-512x512.png"
+avatar: "https://avatars.githubusercontent.com/u/71357739"
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
